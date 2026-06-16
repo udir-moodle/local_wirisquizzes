@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/local_wirisquizzes",
+  "description": "WirisQuizzes  — Composer/Packagist mirror of the Moodle plugin local_wirisquizzes, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-local",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/local_wirisquizzes",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "4.4.* || 4.5.* || 5.0.* || 5.1.* || 5.2.*"
+  },
+  "extra": {
+    "installer-name": "wirisquizzes",
+    "moodle-composer": {
+      "component": "local_wirisquizzes"
+    }
+  }
+}
